@@ -1,4 +1,6 @@
 #Function for creating a new file 
+## Requires specification of a results directory 'rd'
+## e.g rd <- "~/my/results/directory"
 
 write.csv.date <- function(x, y){
   date <- Sys.Date()
